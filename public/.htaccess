@@ -1,0 +1,8 @@
+# Blokir akses ke semua file secara default
+Order Deny,Allow
+Deny from all
+
+# Izinkan akses hanya ke index.html dan file tertentu
+<FilesMatch "^(index\.php|welcome\.php)$">
+    Allow from all
+</FilesMatch>

@@ -1,10 +1,10 @@
 <?php
 
-$host_ip = $_SERVER['HOST_IP'];
-$db_user = $_SERVER['DB_USER'];
-$db_pass = $_SERVER['DB_PASS'];
-$db_name = $_SERVER['DB_NAME'];
-$table_name = $_SERVER['TABLE_NAME'];
+$host_ip = $_SERVER['172.16.100.253'];
+$db_user = $_SERVER['root'];
+$db_pass = $_SERVER['@Dante1231905'];
+$db_name = $_SERVER['transnethotspot'];
+$table_name = $_SERVER['user'];
 
 $con = mysqli_connect($host_ip, $db_user, $db_pass, $db_name);
 
